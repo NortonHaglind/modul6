@@ -1,3 +1,5 @@
+import os
+
 active=True
 
 operator=["+","-","*","/","^","%"]
@@ -74,6 +76,7 @@ while active:
     print(namelist)
     print(len(namelist))
 
+os.system("cls")
 
 while True:
   try:
